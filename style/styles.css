@@ -183,7 +183,7 @@ height: 4rem;
 
 .iframeInsta {
     width: 24rem;
-    height: 57rem;
+    height: 52rem;
     border: solid 2px rgba(0, 0, 0, 0.534);
 }
 
@@ -197,6 +197,7 @@ height: 4rem;
     justify-content: center;
     align-items: center;
     bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .sitios {
@@ -471,25 +472,15 @@ html {
 
 /*index*/
 
-.grid {
-    grid-template-areas: 
-    "nav nav nav"
-    "main main main"
-    "footer footer footer";
-}
-
-.logoClub {
-    transform: translate(0.1rem, 0.9rem);
-}
 
 .cabecera__links {
     flex-direction: column;
 }
 
-.main {
+/*.main {
     flex-direction: column;
     justify-content: center;
-}
+}*/
 
 .socios:hover {
     display: none;
@@ -815,7 +806,7 @@ margin-top: 1rem;
     }
 
     .iframeInsta {
-        width: 30rem;
+        width: 38rem;
     }
 
     /*institucional*/
