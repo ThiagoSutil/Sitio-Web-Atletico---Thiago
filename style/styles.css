@@ -456,7 +456,7 @@ border-radius: 05px;
 
 /*MediaMobile*/
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 575px) {
 
 *{
     margin: 0;
@@ -472,15 +472,23 @@ html {
 
 /*index*/
 
-
-.cabecera__links {
-    flex-direction: column;
+.cabecera {
+    text-align: center;
+    font-size:xx-small;
 }
 
-/*.main {
+
+.cabecera__links {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-}*/
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    transform: translateX(4rem);
+}
+
+.logoClub {
+    transform: translateX(-6rem);
+}
 
 .socios:hover {
     display: none;
@@ -630,7 +638,7 @@ margin-top: 1rem;
 /*Tablet*/
 
 
-@media screen and (min-width:601px) and (max-width:1024px) {
+@media screen and (min-width:576px) and (max-width:991px) {
 
     *{
         margin: 0;
@@ -643,21 +651,9 @@ margin-top: 1rem;
         font-size: 62.5%;
     }
 
-    .grid {
-        grid-template-areas: 
-        "nav nav nav"
-        "main main main"
-        "footer footer footer";
+    .cabecera { text-align: center;
+   
     }
-
-    .logoClub {
-        margin-left: 8rem;
-    }
-
-    .cabecera__links {
-        margin-top: 2rem;
-    }
-
 
     .main {
         flex-direction: column;
@@ -672,15 +668,21 @@ margin-top: 1rem;
         display: none;
     }
 
+
     .animacion {
-        width: 60%;
-        align-self: center;
+        animation-name: none;
+        animation-timing-function: none;
+        animation-duration: none;
+        animation-delay: none;
+        background-image: none;
+     
     }
 
     .pieDePagina {
         margin: 0.5rem;
         padding: 1rem;
     }
+
 
     /*noticias*/
 
@@ -785,8 +787,9 @@ margin-top: 1rem;
 
 }
 
+/*MediaDesktop*/
 
-@media screen and (min-width:1025px) and (max-width:1200px) {
+@media screen and (min-width:992px) and (max-width:1199px) {
 
     *{
         margin: 0;
@@ -800,12 +803,15 @@ margin-top: 1rem;
     }
 
          
-    .cabecera__links {
-        margin-top: 3rem;
-        font-size: medium;
+    .cabecera {
+    text-align: center;
+    font-size: medium;
+    justify-content: space-around;
+
     }
 
     .iframeInsta {
+        transform: translateX(-1rem);
         width: 38rem;
     }
 
