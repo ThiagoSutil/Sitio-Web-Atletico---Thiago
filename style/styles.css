@@ -9,18 +9,6 @@ a {
 }
 
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 2fr auto;
-    grid-template-areas: 
-    "nav nav nav"
-    "main main aside"
-    "footer footer footer";
-    row-gap: 1rem;
-    justify-content: center;
-}
-
 
 .grid2 {
     display: grid;
@@ -40,8 +28,8 @@ a {
     background-color: red;
     background-image: radial-gradient(red, black);
     height: 9rem;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin: 0.5rem;
     
 }
@@ -49,7 +37,6 @@ a {
 .logoClub {
 width: 7rem;
 height: 7rem;
-transform: translate(-9rem, 1rem);
 transition: 0.5s;
 }
 
