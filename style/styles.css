@@ -10,17 +10,6 @@ a {
 
 
 
-.grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 2fr auto;
-    grid-template-areas: 
-    "nav nav nav"
-    "main main main"
-    "footer footer footer"
-    ;
-}
-
 .cabecera {
     grid-area: nav;
     display: flex;
@@ -64,7 +53,6 @@ transition: 0.5s;
 }
 
 .main{
-    grid-area: main;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,7 +177,6 @@ height: 4rem;
 
 
 .pieDePagina {
-    grid-area: footer;
     background-color: rgb(19, 17, 17);
     color: white;
     display: flex;
@@ -230,7 +217,6 @@ height: 4rem;
     background-color: red;
     color: white;
     border: solid 02px black;
-    width: 30rem;
     padding: 1rem;
 }
 
@@ -248,7 +234,6 @@ height: 4rem;
     background-color: red;
     color: white;
     border: solid 02px black;
-    width: 30rem;
     padding: 1rem;
 }
 
@@ -260,8 +245,7 @@ height: 4rem;
 
 /*institucional*/
 
-.main2{
-    grid-area: main;
+.main2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -651,6 +635,9 @@ margin-top: 1rem;
         font-size: 62.5%;
     }
 
+
+    /*index*/
+
     .cabecera { text-align: center;
    
     }
@@ -687,17 +674,17 @@ margin-top: 1rem;
     /*noticias*/
 
     .conjuntoNoticias {
+        flex-direction: column;
         justify-content: space-around;
         margin-bottom: 0.5rem;
-    }
-
-    .confirmacionfecha {
-        width: 28rem;
+        margin: 1rem;
     }
 
     .encuentroescuelita {
-        width: 28rem;
+        margin-top: 1rem;
     }
+
+
 
     /*institucional*/
 
