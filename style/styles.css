@@ -8,8 +8,6 @@ a {
     color: white;
 }
 
-
-
 .cabecera {
     grid-area: nav;
     display: flex;
@@ -207,17 +205,30 @@ height: 4rem;
 
 /*noticias*/
 
+.mainNoticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem;
+
+}
+
 .conjuntoNoticias {
  display: flex;
  flex-direction: row;
  justify-content: space-around;
 }
 
-.confirmacionfecha {
-    background-color: red;
+
+.noticias__articulo {
+    background-image: url(../images/fondorojo.jpg);
     color: white;
     border: solid 02px black;
     padding: 1rem;
+    text-align: center;
+
 }
 
 .verMas {
@@ -240,6 +251,7 @@ height: 4rem;
 .graficanoticias {
     width: 23rem;
     height: 18rem;
+    align-self: center;
 }
 
 
