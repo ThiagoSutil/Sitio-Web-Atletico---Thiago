@@ -215,12 +215,6 @@ height: 4rem;
 
 }
 
-.conjuntoNoticias {
- display: flex;
- flex-direction: row;
- justify-content: space-around;
-}
-
 
 .noticias__articulo {
     background-image: url(../images/fondorojo.jpg);
@@ -239,13 +233,6 @@ height: 4rem;
 .verMas:hover {
     text-decoration: underline 02px rgb(255, 0, 0);
     font-size: large;
-}
-
-.encuentroescuelita {
-    background-color: red;
-    color: white;
-    border: solid 02px black;
-    padding: 1rem;
 }
 
 .graficanoticias {
