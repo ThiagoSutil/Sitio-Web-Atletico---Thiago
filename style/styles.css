@@ -245,8 +245,9 @@ height: 4rem;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    background-color: rgb(255, 255, 255);
     margin: 0.5rem;
+    background-image: url(../images/fondooscuro.webp);
+    padding: 2rem;
 
 }
 
@@ -407,19 +408,6 @@ border-radius: 05px;
     "footer footer footer";
 }
 
-
-.mainNoticias {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    background-image: linear-gradient(white, black, red);
-    padding: 2rem;
-    grid-area: main;
-}
-
 .titulonoticia {
     background-color: rgb(148, 0, 0);
     color: white;
@@ -536,19 +524,7 @@ html {
 
 /*noticias*/
 
-
-.conjuntoNoticias {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.confirmacionfecha {
-    width: 28rem;
-}
-
-.encuentroescuelita {
-    width: 28rem;
+.noticia__escuelita {
     margin-top: 1rem;
 }
 
@@ -716,14 +692,8 @@ margin-top: 1rem;
 
     /*noticias*/
 
-    .conjuntoNoticias {
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 0.5rem;
-        margin: 1rem;
-    }
 
-    .encuentroescuelita {
+    .noticia__escuelita {
         margin-top: 1rem;
     }
 
@@ -832,8 +802,9 @@ margin-top: 1rem;
         font-size: 62.5%;
     }
 
-         
-    .cabecera {
+   /*index*/      
+    
+   .cabecera {
     text-align: center;
     font-size: medium;
     justify-content: space-around;
@@ -880,6 +851,7 @@ margin-top: 1rem;
     }
     
     .pieDePagina {
+        text-align: center;
         margin: 0.3rem;
     }
 
