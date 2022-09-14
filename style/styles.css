@@ -825,7 +825,6 @@ margin-top: 1rem;
     }
     
     .historia__subitems {
-        margin-top: 1rem;
         align-self: center;
     }
 
@@ -833,13 +832,12 @@ margin-top: 1rem;
         margin-top: 1rem;
     }
 
-    .descripcion__imagenNacional {
-        margin-top: 1rem;
+    .nacional {
+        display: flex;
+        flex-direction: row;
     }
 
-    .imagen__ilustrativa {
-        width: 80rem;
-    }
+
 
     /*festivalboxeo*/
 
