@@ -358,6 +358,33 @@ height: 4rem;
 
 .presentacion {
     color: white;
+    animation-name: subrayado;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+
+@keyframes subrayado {
+
+    0% {background-color: red;
+        color: white;
+        border-radius: 05px;
+    }
+
+    50% {
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+        border-radius: 05px;
+
+   }
+
+   100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 05px;
+   }
 }
 
 .disciplina {
@@ -490,10 +517,6 @@ html {
 
 .animacion {
     animation-name: none;
-    animation-timing-function: none;
-    animation-duration: none;
-    animation-delay: none;
-    background-image: none;
  
 }
 
@@ -542,6 +565,13 @@ html {
 .pieDePagina {
     padding: 2rem;
 }
+
+/*disciplinas*/
+
+.presentacion {
+    animation-name: none;
+}
+
 
 
 /*galeria*/
