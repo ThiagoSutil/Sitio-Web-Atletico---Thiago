@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styles.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <title>Disciplinas</title>
 </head>
+
 <body>
     <div class="grid2">
-    <header class="cabecera">
-        <a class="imagen" href="../index.html"> <img class="logoClub" src="../images/logoatleticorojo.png" alt="logo atlético"></a>
-         <nav>
-             <ul class="cabecera__links">
-                 <li> <a href="../index.html">Inicio</a> </li>
-                 <li><a href="noticias.html">Noticias</a></li>
-                 <li><a href="institucional.html">Institucional</a></li>
-                 <li><a href="disciplinas.html">Disciplinas </a></li>
-                 <li><a href="galeria.html">Galería</a></li>
-                 <li><a href="contacto.html">Contacto</a></li>
-             </ul>
-         </nav>
-     </header>
-     <main class="main__disciplinas">
-        <h1 class="presentacion">DISCIPLINAS</h1>
-        <div class="disciplina"><h3 class="disciplina__descripcion">KARATE</h3>
-        <p class="disciplina__descripcion">Escuela a cargo de los profesores Carolina Fiorentino y Juan Adobatti.</p>
-        <p class="disciplina__descripcion">Lugar: Gimnasio de Karate en la Sede Social (Mitre 1042).</p>
-        <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
-        <img class="imagen__disciplina" src="../images/karate.jpg" alt="profesKarate">
-        </div>
-       <div class="disciplina"><h3 class="disciplina__descripcion">BOXEO</h3>
-       <p class="disciplina__descripcion">Escuela a cargo del profesor Sebastián Alagibe</p>
-        <p class="disciplina__descripcion">Lugar: Gimnasio de Boxeo en la Sede Social (Mitre 1042).</p>
-        <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
-        <img class="imagen__disciplina" src="../images/alagibes.jpg" alt="clasesBoxeo">
-        </div>
-        <div class="disciplina"><h3 class="disciplina__descripcion">PELOTA PALETA</h3>
-        <p class="disciplina__descripcion">Escuela a cargo del profesor Walter Larregle</p>
-        <p class="disciplina__descripcion">Lugar: Trinquete del Club en la Sede Social (Mitre 1042).</p>
-        <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
-        <img class="imagen__disciplina" src="../images/profepaleta.jpeg" alt="profesorPaleta">
-    </div>
-       <div class="disciplina"><h3 class="disciplina__descripcion">FÚTBOL FEMENINO</h3>
-        <p class="disciplina__descripcion">Escuela a cargo de los profesores Agustín Suárez y Thiago Sutil.</p>
-        <p class="disciplina__descripcion">Lugar: Gimnasio del Club en la Sede Social (Mitre 1042)</p>
-        <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
-        <img class="imagen__disciplina" src="../images/futbolfemenino.jpeg" alt="futbolFemenino">
-    </div>
-        <div class="disciplina"><h3 class="disciplina__descripcion">FÚTBOL MASCULINO</h3>
-            <p class="disciplina__descripcion">Escuela a cargo de los profesores Manuel Ferrari, Diego Larocca, Gonzalo Cordonier,</p>
-            <p class="disciplina__descripcion">Marcia Arana y Agustín Suárez.</p>
-            <p class="disciplina__descripcion">Lugar: Gimnasio del Club en la Sede Social (Mitre 1042) y Estadio Luciano Ceverio.</p>
-            <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
-            <img class="imagen__disciplina" src="../images/futbolmasculino.jpg" alt="futbolMasculino">
-        </div>
-     </main>
-     <hr class="linea">
-     <footer class="pieDePagina">
-        <img src="../images/logoatletico.png" width="60px" height="60px" alt="logo atlético">
-        <p>Club Atlético Ayacucho Asoc. Civil. Todos los Derechos Reservados.</p>
-        <p class="pieDePagina__rojo">SEDE SOCIAL: MITRE 1042 - AYACUCHO (7150), Buenos Aires, Argentina.</p>
-        <p>ATENCIÓN EN SECRETARÍA: Lunes a Viernes de 10:00 a 12:30 y de 17:00 a 21:00 hs. </p>
-        <p class="pieDePagina__rojo">Nuestras redes sociales:</p>
-        <div class="sitios">
-            <p class="redes"> <a href="https://www.facebook.com/clubatleticoayacucho" target="_blank"><img class="imagen__redesSoc" src="../images/logoface.png" alt="logo facebook"></a></p>
-        <p class="redes"><a href="https://www.instagram.com/clubatleticoayacucho/" target="_blank"><img class="imagen__redesSoc" src="../images/logoinsta.png" alt="logo instagram"></a></p>
-        </div>    
-    </footer>
+        <header class="cabecera">
+            <a class="imagen" href="../index.html"> <img class="logoClub" src="../images/logoatleticorojo.png"
+                    alt="logo atlético"></a>
+            <nav>
+                <ul class="cabecera__links">
+                    <li> <a href="../index.html">Inicio</a> </li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="institucional.html">Institucional</a></li>
+                    <li><a href="disciplinas.html">Disciplinas </a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main__disciplinas">
+            <h1 class="presentacion">DISCIPLINAS</h1>
+            <div class="disciplina">
+                <h3 class="disciplina__descripcion">KARATE</h3>
+                <p class="disciplina__descripcion">Escuela a cargo de los profesores Carolina Fiorentino y Juan
+                    Adobatti.</p>
+                <p class="disciplina__descripcion">Lugar: Gimnasio de Karate en la Sede Social (Mitre 1042).</p>
+                <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
+                <img class="imagen__disciplina" src="../images/karate.jpg" alt="profesKarate">
             </div>
+            <div class="disciplina">
+                <h3 class="disciplina__descripcion">BOXEO</h3>
+                <p class="disciplina__descripcion">Escuela a cargo del profesor Sebastián Alagibe</p>
+                <p class="disciplina__descripcion">Lugar: Gimnasio de Boxeo en la Sede Social (Mitre 1042).</p>
+                <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
+                <img class="imagen__disciplina" src="../images/alagibes.jpg" alt="clasesBoxeo">
+            </div>
+            <div class="disciplina">
+                <h3 class="disciplina__descripcion">PELOTA PALETA</h3>
+                <p class="disciplina__descripcion">Escuela a cargo del profesor Walter Larregle</p>
+                <p class="disciplina__descripcion">Lugar: Trinquete del Club en la Sede Social (Mitre 1042).</p>
+                <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
+                <img class="imagen__disciplina" src="../images/profepaleta.jpeg" alt="profesorPaleta">
+            </div>
+            <div class="disciplina">
+                <h3 class="disciplina__descripcion">FÚTBOL FEMENINO</h3>
+                <p class="disciplina__descripcion">Escuela a cargo de los profesores Agustín Suárez y Thiago Sutil.</p>
+                <p class="disciplina__descripcion">Lugar: Gimnasio del Club en la Sede Social (Mitre 1042)</p>
+                <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
+                <img class="imagen__disciplina" src="../images/futbolfemenino.jpeg" alt="futbolFemenino">
+            </div>
+            <div class="disciplina">
+                <h3 class="disciplina__descripcion">FÚTBOL MASCULINO</h3>
+                <p class="disciplina__descripcion">Escuela a cargo de los profesores Manuel Ferrari, Diego Larocca,
+                    Gonzalo Cordonier,</p>
+                <p class="disciplina__descripcion">Marcia Arana y Agustín Suárez.</p>
+                <p class="disciplina__descripcion">Lugar: Gimnasio del Club en la Sede Social (Mitre 1042) y Estadio
+                    Luciano Ceverio.</p>
+                <p class="disciplina__descripcion">Horarios: Consultar en secretaría de Lunes a Viernes.</p>
+                <img class="imagen__disciplina" src="../images/futbolmasculino.jpg" alt="futbolMasculino">
+            </div>
+        </main>
+        <hr class="linea">
+        <footer class="pieDePagina">
+            <img src="../images/logoatletico.png" width="60px" height="60px" alt="logo atlético">
+            <p>Club Atlético Ayacucho Asoc. Civil. Todos los Derechos Reservados.</p>
+            <p class="pieDePagina__rojo">SEDE SOCIAL: MITRE 1042 - AYACUCHO (7150), Buenos Aires, Argentina.</p>
+            <p>ATENCIÓN EN SECRETARÍA: Lunes a Viernes de 10:00 a 12:30 y de 17:00 a 21:00 hs. </p>
+            <p class="pieDePagina__rojo">Nuestras redes sociales:</p>
+            <div class="sitios">
+                <p class="redes"> <a href="https://www.facebook.com/clubatleticoayacucho" target="_blank"><img
+                            class="imagen__redesSoc" src="../images/logoface.png" alt="logo facebook"></a></p>
+                <p class="redes"><a href="https://www.instagram.com/clubatleticoayacucho/" target="_blank"><img
+                            class="imagen__redesSoc" src="../images/logoinsta.png" alt="logo instagram"></a></p>
+            </div>
+        </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
