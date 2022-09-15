@@ -348,13 +348,11 @@ height: 4rem;
 /*disciplinas*/
 
 .main__disciplinas {
-    grid-area: main;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(148, 0, 0);
     padding: 1rem;
 }
 
@@ -365,9 +363,6 @@ height: 4rem;
 .disciplina {
     background-image: linear-gradient(black, red, black);
     color: white;
-    border: solid 02px black;
-    width: 75rem;
-    height: 53rem;
     margin-top: 2rem;
     border-radius: 05px;
     padding: 1rem;
@@ -375,9 +370,8 @@ height: 4rem;
 
 
 .imagen__disciplina {
-width: 60rem;
-height: 40rem;
 border-radius: 05px;
+height: 20rem;
 }
 
 
@@ -549,18 +543,6 @@ html {
     padding: 2rem;
 }
 
-/*disciplinas*/
-
-.disciplina {
-   width: 30rem;
-    height: 28rem;
-}
-
-.imagen__disciplina {
-width: 27rem;
-height: 16rem;
-margin-top: 1rem;
-}
 
 /*galeria*/
 
@@ -702,9 +684,6 @@ margin-top: 1rem;
   
     /*disciplinas*/
 
-    .disciplina {
-        width: 90%;
-    }
 
     .imagen__disciplina {
         width: 100%;
