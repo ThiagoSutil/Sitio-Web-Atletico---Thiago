@@ -256,7 +256,7 @@ height: 4rem;
 .noticias__articulo {
     background-image: url(../images/fondorojo.jpg);
     color: white;
-    border: solid 02px black;
+    /*border: solid 02px black;*/
     padding: 1rem;
     text-align: center;
 
@@ -307,7 +307,6 @@ height: 4rem;
 }
 
 .otras__disciplinas {
-    transform: translateX(27rem);
     margin-top: 1rem;
     padding: 0.5rem;
 }
@@ -337,7 +336,6 @@ height: 4rem;
 
 .card {
     margin-top: 1rem;
-    border: solid 2px rgb(219, 83, 83);
 }
 
 .card-text {
@@ -568,10 +566,6 @@ html {
     margin-bottom: 1rem;
 }
 
-.otras__disciplinas {
-    transform: none;
-}
-
 .pieDePagina {
     padding: 2rem;
 }
@@ -697,19 +691,12 @@ html {
         margin-top: 1rem;
     }
 
-    .historia {
-        display: none;
-    }
-
     .historia__items {
         align-self: center;
         margin-left: 0px;
         margin-top: 1rem;
     }
 
-    .otras__disciplinas {
-        transform: none;
-    }
     
   
     /*disciplinas*/
@@ -788,9 +775,6 @@ html {
 
     /*institucional*/
 
-    .otras__disciplinas {
-        transform: none;
-    }
 
     .imagen__ilustrativa {
         height: 50rem;
