@@ -5,35 +5,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <title>Galería</title>
 </head>
 
-<body>
-    <div class="grid2">
-    <header class="cabecera">
-        <a class="imagen" href="../index.html"> <img class="logoClub" src="../images/logoatleticorojo.png"
-                alt="logo atlético"></a>
-        <nav>
-            <ul class="cabecera__links">
-                <li> <a href="../index.html">Inicio</a> </li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="institucional.html">Institucional</a></li>
-                <li><a href="disciplinas.html">Disciplinas </a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<body class="container">
+    <div class="row">
+        <header class="cabecera">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-5 col-xxl-6">
+                <a class="imagen" href="../index.html"> <img class="logoClub" src="../images/logoatleticorojo.png"
+                        alt="logo atlético"></a>
+            </div>
+
+            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-7 col-xxl-6">
+                <nav>
+                    <ul class="cabecera__links">
+                        <li> <a href="../index.html">Inicio</a> </li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="institucional.html">Institucional</a></li>
+                        <li><a href="disciplinas.html">Disciplinas </a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main class="main2">
-            <section class="galeria">
-            <div class="album">Álbum 1</div>
-            <div class="album">Álbum 2</div>
-            <div class="album">Álbum 3</div>
-            </section>
-        </main>
-        <hr class="linea">
+    </div>
+    <main class="main2">
+        <div class="row">
+
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="card text-bg-dark album">
+                    <img src="../images/mediacancha.webp" class="card-img w-100 blur" alt="jugadores">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title tituloAlbum">FÚTBOL</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-bg-dark album">
+                    <img src="../images/ayapaleta.jpg" class="card-img w-100 blur" alt="pelotaris">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title tituloAlbum">PELOTA PALETA</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-bg-dark album">
+                    <img src="../images/profess.jpg" class="card-img w-100 blur" alt="profesKarate">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title tituloAlbum">KARATE</h5>
+                    </div>
+                  </div>
+
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-bg-dark album">
+                    <img src="../images/alagibes.jpg" class="card-img w-100 blur" alt="alagibes">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title tituloAlbum">BOXEO</h5>
+                    </div>
+                  </div>
+
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-bg-dark album">
+                    <img src="../images/grupofemenino.jpeg" class="card-img w-100 blur" alt="grupoFutbolFemenino">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title tituloAlbum">FUTBOL FEMENINO</h5>
+                    </div>
+                  </div>
+
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-bg-dark album">
+                    <img src="../images/futbolmasculino.jpg" class="card-img w-10 blur" alt="futbolMasculinoInfantil">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title tituloAlbum">FÚTBOL MASCULINO</h5>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <hr class="linea">
+    <div class="row">
         <footer class="pieDePagina">
             <img src="../images/logoatletico.png" width="60px" height="60px" alt="logo atlético">
             <p>Club Atlético Ayacucho Asoc. Civil. Todos los Derechos Reservados.</p>
@@ -46,8 +130,14 @@
                 <p class="redes"><a href="https://www.instagram.com/clubatleticoayacucho/" target="_blank"><img
                             class="imagen__redesSoc" src="../images/logoinsta.png" alt="logo instagram"></a></p>
             </div>
+
+        </footer>
     </div>
-    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
