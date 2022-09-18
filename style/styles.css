@@ -256,7 +256,6 @@ height: 4rem;
 .noticias__articulo {
     background-image: url(../images/fondorojo.jpg);
     color: white;
-    /*border: solid 02px black;*/
     padding: 1rem;
     text-align: center;
 
@@ -409,51 +408,39 @@ height: 20rem;
     color: black;
 }
 
-/*FestivalBoxeo*/
-
-.gridnoticias {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "nav nav nav"
-    "main main main"
-    "footer footer footer";
+fieldset {
+    color: black;
 }
 
+/*FestivalBoxeo*/
+
 .titulonoticia {
-    background-color: rgb(148, 0, 0);
     color: white;
     border-radius: 05px;
     padding: 0.5rem;
 }
 
 .rayoNoticia {
-    width: 39rem;
     height: 25rem;
     border-radius: 05px;
 }
 
 .redaccion {
-    color: white;
+    color: rgb(0, 0, 0);
+    background-image: url(../images/fondorojo.jpg);
+    padding: 2rem;
+}
+
+.noticiaBox {
+    background-image: url(../images/fondorojo.jpg);
 }
 
 /*NoticiaEscuelita*/
 
-.noticiaEscuelita {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-image: linear-gradient(black, red, black);
-    color: white;
-    margin: 1rem;
-}
 
 #chicosEscuelita {
-    width: 50rem;
     height: 30rem;
-    align-self: center;
+ 
 }
 
 
