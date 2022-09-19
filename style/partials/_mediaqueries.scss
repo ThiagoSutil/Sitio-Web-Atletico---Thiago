@@ -39,5 +39,83 @@
         animation-name: none;
      
     }
+
+    .aside {
+        display:none;
+
+        .imagen_carousel {
+            height: 20rem;
+        }
+    }
+    
+    
+       .pieDePagina {
+        text-align: center;
+        padding: 2rem;
+        margin: 0.3rem;
+    }
+    
+    /*noticias*/
+    
+    .noticia__escuelita {
+        margin-top: 1rem;
+    }
+    
+    
+    /*institucional*/
+    
+    .main2 {
+        display: flex;
+        padding: 2rem;
+        margin: 0.5rem;
+
+        .texto {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .imagen__ilustrativa{
+            height: 20rem;
+        }
+    }
+    
+    
+    /*disciplinas*/
+    
+    .presentacion {
+        animation-name: none;
+    }
+    
+    
+    
+    /*galeria*/
+    
+    .tituloAlbum:hover {
+      display: none;
+    }
+    
+    
+    /*festivalboxeo*/
+    
+    .rayoNoticia {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+
+    
+    /*encuentroescuelitas*/
+    
+    #chicosEscuelita {
+        width: 80%;
+        margin: 1rem;
+        border-radius: 05px;
+    }
+    
+    }
+
+
+    
+    
   
-}
