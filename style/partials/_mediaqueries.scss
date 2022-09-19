@@ -1,0 +1,43 @@
+//MediaQueries
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    
+    .cabecera {
+        text-align: center;
+        font-size:xx-small;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+            transform: translateX(2rem);
+        }
+
+        .logoClub {
+            transform: translateX(-3rem);
+        }
+    }
+
+    .socios:hover {
+        display: none;
+    }
+    
+    .animacion {
+        animation-name: none;
+     
+    }
+  
+}
