@@ -217,6 +217,68 @@
     }
 }
 
+//MainDisciplinas
+
+.main__disciplinas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+
+    .presentacion {
+        color: white;
+        animation-name: subrayado;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 5s;
+
+        @keyframes subrayado {
+
+            0% {background-color: red;
+                color: white;
+                border-radius: 05px;
+            }
+        
+            50% {
+                background-color: rgb(255, 255, 255);
+                color: rgb(255, 0, 0);
+                border-radius: 05px;
+        
+           }
+        
+           100% {
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 05px;
+           }
+        }
+    }
+
+    .disciplina {
+        background-image: linear-gradient(black, red, black);
+        color: white;
+        margin-top: 2rem;
+        border-radius: 05px;
+        padding: 1rem;
+
+        .imagen__disciplina {
+            border-radius: 05px;
+            height: 20rem;
+            }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

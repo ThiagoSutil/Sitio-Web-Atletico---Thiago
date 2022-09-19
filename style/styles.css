@@ -239,6 +239,71 @@ body {
   padding: 0.5rem;
 }
 
+.main__disciplinas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.main__disciplinas .presentacion {
+  color: white;
+  -webkit-animation-name: subrayado;
+          animation-name: subrayado;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+@-webkit-keyframes subrayado {
+  0% {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+}
+@keyframes subrayado {
+  0% {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+}
+.main__disciplinas .disciplina {
+  background-image: linear-gradient(black, red, black);
+  color: white;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.main__disciplinas .disciplina .imagen__disciplina {
+  border-radius: 5px;
+  height: 20rem;
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;
