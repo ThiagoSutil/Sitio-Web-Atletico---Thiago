@@ -231,6 +231,7 @@ body {
   html {
     font-size: 62.5%;
   }
+  /*index*/
   .cabecera {
     text-align: center;
     font-size: xx-small;
@@ -298,6 +299,140 @@ body {
   /*encuentroescuelitas*/
   #chicosEscuelita {
     width: 80%;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  /*index*/
+  .cabecera {
+    text-align: center;
+  }
+  .main {
+    flex-direction: column;
+    margin: 0.6rem;
+  }
+  .main .socios:hover {
+    display: none;
+  }
+  .aside {
+    display: none;
+  }
+  .imagen_carousel {
+    height: 30rem;
+  }
+  .animacion {
+    -webkit-animation-name: none;
+            animation-name: none;
+    -webkit-animation-timing-function: none;
+            animation-timing-function: none;
+    -webkit-animation-duration: none;
+            animation-duration: none;
+    -webkit-animation-delay: none;
+            animation-delay: none;
+    background-image: none;
+  }
+  .pieDePagina {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  /*noticias*/
+  .noticia__escuelita {
+    margin-top: 1rem;
+  }
+  /*institucional*/
+  .texto {
+    text-align: center;
+  }
+  .imagen__ilustrativa {
+    height: 40rem;
+  }
+  .descripcion__imagen {
+    color: black;
+    margin-top: 1rem;
+  }
+  .historia__items {
+    align-self: center;
+    margin-left: 0px;
+    margin-top: 1rem;
+  }
+  /*disciplinas*/
+  .presentacion {
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  /*galeria*/
+  .tituloAlbum:hover {
+    display: none;
+  }
+  /*festivalboxeo*/
+  .rayoNoticia {
+    width: 80%;
+    height: 40rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /*encuentroescuelitas*/
+  #chicosEscuelita {
+    width: 80%;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+}
+/*MediaDesktop*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: medium;
+  }
+  /*index*/
+  .cabecera {
+    text-align: center;
+    font-size: medium;
+    justify-content: space-around;
+  }
+  .iframeInsta {
+    transform: translateX(-1rem);
+    width: 38rem;
+  }
+  .pieDePagina {
+    padding: 2rem;
+  }
+  /*institucional*/
+  .imagen__ilustrativa {
+    height: 50rem;
+  }
+  /*festivalboxeo*/
+  .rayoNoticia {
+    width: 80%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .pieDePagina {
+    text-align: center;
+    margin: 0.3rem;
+  }
+  /*encuentroescuelitas*/
+  #chicosEscuelita {
+    width: 80%;
+    height: 40%;
     margin: 1rem;
     border-radius: 5px;
   }
