@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: red;
-    background-image: radial-gradient(red, black);
+    background-image: $backgroundHeader;
     height: 9rem;
     justify-content: space-around;
     align-items: center;
