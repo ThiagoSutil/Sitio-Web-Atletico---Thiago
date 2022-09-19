@@ -9,8 +9,27 @@
   align-items: center;
   margin: 0.5rem;
 }
+.cabecera ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.cabecera ul li a {
+  margin-left: 1rem;
+  color: white;
+  transition: 0.5s;
+}
+.cabecera ul li a:hover {
+  filter: opacity(0.5);
+}
 .cabecera .logoClub {
   width: 7rem;
   height: 7rem;
   transition: 0.5s;
+}
+.cabecera .logoClub:hover {
+  filter: opacity(0.8);
 }/*# sourceMappingURL=styles.css.map */
