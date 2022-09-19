@@ -188,6 +188,57 @@ body {
   font-size: large;
 }
 
+.main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+}
+.main2 .historia {
+  background-color: rgb(148, 0, 0);
+  color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 16rem;
+  align-self: center;
+}
+.main2 .card {
+  margin-top: 1rem;
+}
+.main2 .card .historia__items {
+  background-color: rgb(148, 0, 0);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5rem;
+}
+.main2 .card .texto {
+  margin: 1rem;
+  color: rgb(0, 0, 0);
+}
+.main2 .card .card-text {
+  text-align: center;
+}
+.main2 .card .historia__subitems {
+  background-color: rgb(148, 0, 0);
+  color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.main2 .card .imagen__ilustrativa {
+  border-radius: 5px;
+  height: 45rem;
+}
+.main2 .card .descripcion__imagenNacional {
+  color: black;
+}
+.main2 .otras__disciplinas {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;
@@ -251,8 +302,6 @@ body {
 .pieDePagina .sitios .imagen__redesSoc:hover {
   filter: opacity(0.5);
 }
-
-/*MediaMobile*/
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
   * {
@@ -335,12 +384,7 @@ body {
     border-radius: 5px;
   }
 }
-
-
-
 /*Tablet*/
-
-
 @media screen and (min-width: 576px) and (max-width: 991px) {
   * {
     margin: 0;
@@ -387,17 +431,17 @@ body {
     margin-top: 1rem;
   }
   /*institucional*/
-  .texto {
+  .main2 .texto {
     text-align: center;
   }
-  .imagen__ilustrativa {
+  .main2 .imagen__ilustrativa {
     height: 40rem;
   }
-  .descripcion__imagen {
+  .main2 .descripcion__imagen {
     color: black;
     margin-top: 1rem;
   }
-  .historia__items {
+  .main2 .historia__items {
     align-self: center;
     margin-left: 0px;
     margin-top: 1rem;
@@ -425,13 +469,7 @@ body {
     border-radius: 5px;
   }
 }
-
-
-
-
 /*MediaDesktop*/
-
-
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   * {
     margin: 0;

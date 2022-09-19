@@ -155,6 +155,83 @@
 
 //MainInstitucional
 
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+
+    .historia {
+        background-color: rgb(148, 0, 0);
+        color: white;
+        border: solid 01px black;
+        border-radius: 05px;
+        width: 16rem;
+        align-self: center;
+    }
+
+    .card {
+        margin-top: 1rem;
+
+        .historia__items {
+            background-color: rgb(148, 0, 0);
+            color: white;
+            border-radius: 05px;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        .texto {
+            margin: 1rem;
+            color: rgb(0, 0, 0);
+        }
+
+        .card-text {
+            text-align: center;
+        }
+
+        .historia__subitems {
+            background-color: rgb(148, 0, 0);
+            color: white;
+            border: solid 1px black;
+            border-radius: 05px;
+            padding: 0.5rem;
+        }
+
+        .imagen__ilustrativa {
+            border-radius: 05px;
+            height: 45rem;
+        }
+
+        
+        .descripcion__imagenNacional {
+            color: black;
+        }
+
+    }
+
+    .otras__disciplinas {
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
