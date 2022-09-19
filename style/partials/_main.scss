@@ -118,6 +118,51 @@
 
 //MainNoticias
 
+.mainNoticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+    background-image: url(../images/fondooscuro.webp);
+    padding: 2rem;
+
+    .noticias__articulo {
+        background-image: url(../images/fondorojo.jpg);
+        color: white;
+        padding: 1rem;
+        text-align: center;
+
+        .graficanoticias {
+            width: 23rem;
+            height: 18rem;
+            align-self: center;
+        }
+
+        .verMas {
+            color: black;
+            transition: 1s;
+            &:hover {
+                text-decoration: underline 02px rgb(255, 0, 0);
+                font-size: large;
+            }
+            }
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

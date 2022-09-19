@@ -158,6 +158,36 @@ body {
   padding: 1rem;
 }
 
+.mainNoticias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+  background-image: url(../images/fondooscuro.webp);
+  padding: 2rem;
+}
+.mainNoticias .noticias__articulo {
+  background-image: url(../images/fondorojo.jpg);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.mainNoticias .noticias__articulo .graficanoticias {
+  width: 23rem;
+  height: 18rem;
+  align-self: center;
+}
+.mainNoticias .noticias__articulo .verMas {
+  color: black;
+  transition: 1s;
+}
+.mainNoticias .noticias__articulo .verMas:hover {
+  -webkit-text-decoration: underline 2px rgb(255, 0, 0);
+          text-decoration: underline 2px rgb(255, 0, 0);
+  font-size: large;
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;
