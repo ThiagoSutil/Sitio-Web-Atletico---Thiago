@@ -1,0 +1,16 @@
+.cabecera {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    background-image: radial-gradient(red, black);
+    height: 9rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5rem;
+    .logoClub {
+        width: 7rem;
+        height: 7rem;
+        transition: 0.5s;
+    }
+}
