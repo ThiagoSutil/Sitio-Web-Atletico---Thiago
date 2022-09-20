@@ -320,6 +320,18 @@ body {
   color: rgba(255, 0, 0, 0.658);
 }
 
+fieldset {
+  color: black;
+}
+fieldset .formulario {
+  background-image: url(../images/contacto.jpg);
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
+  color: black;
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;
