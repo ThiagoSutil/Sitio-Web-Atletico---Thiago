@@ -304,6 +304,22 @@ body {
   height: 20rem;
 }
 
+.album {
+  height: 15rem;
+}
+.album .blur {
+  filter: blur(2px);
+  height: 100%;
+}
+.album .tituloAlbum {
+  transform: translateY(6rem);
+  transition: 0.5s;
+}
+.album .tituloAlbum:hover {
+  font-size: 2rem;
+  color: rgba(255, 0, 0, 0.658);
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;
@@ -433,7 +449,7 @@ body {
             animation-name: none;
   }
   /*galeria*/
-  .tituloAlbum:hover {
+  .tituloAlbum:hover:hover {
     display: none;
   }
   /*festivalboxeo*/

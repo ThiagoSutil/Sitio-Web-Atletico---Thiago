@@ -93,7 +93,9 @@
     /*galeria*/
     
     .tituloAlbum:hover {
-      display: none;
+        &:hover {
+            display: none;
+        }
     }
     
     
@@ -222,8 +224,11 @@
 
     /*galeria*/
 
-    .tituloAlbum:hover {
-        display: none;
+    .tituloAlbum {
+        &:hover{
+            display: none;
+        }
+        
     }
 
 
