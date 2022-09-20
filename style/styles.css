@@ -332,6 +332,28 @@ fieldset .formulario {
   color: black;
 }
 
+.contenidoNoticia {
+  background-image: url(../images/fondorojo.jpg);
+}
+.contenidoNoticia .titulonoticia {
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.contenidoNoticia .rayoNoticia {
+  height: 25rem;
+  border-radius: 5px;
+}
+.contenidoNoticia #chicosEscuelita {
+  height: 30rem;
+}
+
+.redaccion {
+  color: rgb(0, 0, 0);
+  background-image: url(../images/fondorojo.jpg);
+  padding: 2rem;
+}
+
 .aside {
   grid-area: aside;
   margin-left: 2rem;

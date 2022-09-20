@@ -257,7 +257,7 @@
     }
 
     .disciplina {
-        background-image: linear-gradient(black, red, black);
+        background-image: $backgroundMain;
         color: white;
         margin-top: 2rem;
         border-radius: 05px;
@@ -315,7 +315,40 @@ fieldset {
 }
 
 
-    
+//Noticia FestivalBoxeo y EncuentroEscuelita
+
+
+
+
+
+.contenidoNoticia {
+    background-image: url(../images/fondorojo.jpg);
+
+    .titulonoticia {
+        color: white;
+        border-radius: 05px;
+        padding: 0.5rem;
+    }
+
+    .rayoNoticia {
+        height: 25rem;
+        border-radius: 05px;
+    }
+
+    #chicosEscuelita {
+        height: 30rem;
+     
+    }    
+}
+
+.redaccion {
+    color: rgb(0, 0, 0);
+    background-image: url(../images/fondorojo.jpg);
+    padding: 2rem;
+}
+
+
+
 
 
 
