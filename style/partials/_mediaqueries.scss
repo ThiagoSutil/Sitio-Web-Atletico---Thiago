@@ -53,6 +53,7 @@
     
     
        .pieDePagina {
+        flex-direction: column;
         text-align: center;
         padding: 2rem;
         margin: 0.3rem;
@@ -175,6 +176,7 @@
     }
 
     .pieDePagina {
+        flex-direction: column;
         margin: 0.5rem;
         padding: 1rem;
     }
@@ -282,12 +284,18 @@
     justify-content: space-around;
 
     }
+     
+    .aside {
 
-    .iframeInsta {
-        transform: translateX(-1rem);
-        width: 38rem;
+        .iframeInsta {
+            transform: translateX(-1rem);
+            width: 35rem;
+            height: 57rem;
+        }
+    
+
     }
-
+    
     .pieDePagina {
         padding: 2rem;
     }

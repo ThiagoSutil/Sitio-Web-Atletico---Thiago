@@ -401,6 +401,7 @@ fieldset .formulario {
   margin-top: 0.5rem;
 }
 .pieDePagina .datos {
+  font-size: small;
   text-align: center;
 }
 .pieDePagina .linksFooter {
@@ -411,6 +412,7 @@ fieldset .formulario {
   margin-top: 0.5rem;
 }
 .pieDePagina .linksFooter li a {
+  font-size: small;
   transition: 0.5s;
 }
 .pieDePagina .linksFooter li a:hover {
@@ -470,6 +472,7 @@ fieldset .formulario {
     height: 20rem;
   }
   .pieDePagina {
+    flex-direction: column;
     text-align: center;
     padding: 2rem;
     margin: 0.3rem;
@@ -552,6 +555,7 @@ fieldset .formulario {
     background-image: none;
   }
   .pieDePagina {
+    flex-direction: column;
     margin: 0.5rem;
     padding: 1rem;
   }
@@ -617,9 +621,10 @@ fieldset .formulario {
     font-size: medium;
     justify-content: space-around;
   }
-  .iframeInsta {
+  .aside .iframeInsta {
     transform: translateX(-1rem);
-    width: 38rem;
+    width: 35rem;
+    height: 57rem;
   }
   .pieDePagina {
     padding: 2rem;

@@ -10,6 +10,7 @@
     margin-top: 0.5rem;
 
     .datos {
+        font-size: small;
         text-align: center;
     
     }
@@ -19,12 +20,14 @@
     text-align: center;
 
 
+
     li {
         margin-top: 0.5rem;
 
     }
 
     li a {
+        font-size: small;
         transition: 0.5s;
         &:hover {
             color: red;
