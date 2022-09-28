@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: $backgroundMain;
+    background-image: map-get($backgrounds, backgroundMain);
     padding: 1rem;
     margin-top: 0.5rem;
     border-radius: 05px;
@@ -257,7 +257,7 @@
     }
 
     .disciplina {
-        background-image: $backgroundMain;
+        background-image: map-get($backgrounds, backgroundMain);
         color: white;
         margin-top: 2rem;
         border-radius: 05px;

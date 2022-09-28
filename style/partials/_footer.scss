@@ -1,5 +1,5 @@
 .pieDePagina {
-    background-color: $backgroundFooter;
+    background-color: map-get($backgrounds, backgroundFooter);
     color: white;
     display: flex;
     flex-direction: column;
