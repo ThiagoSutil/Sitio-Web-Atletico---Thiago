@@ -390,22 +390,36 @@ fieldset .formulario {
 }
 
 .pieDePagina {
-  background-color: rgb(19, 17, 17);
+  background-color: rgb(17, 15, 15);
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   bottom: 0;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
-.pieDePagina .pieDePagina__rojo {
+.pieDePagina .datos {
+  text-align: center;
+}
+.pieDePagina .linksFooter {
+  list-style-type: none;
+  text-align: center;
+}
+.pieDePagina .linksFooter li {
+  margin-top: 0.5rem;
+}
+.pieDePagina .linksFooter li a {
+  transition: 0.5s;
+}
+.pieDePagina .linksFooter li a:hover {
   color: red;
 }
 .pieDePagina .sitios {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .pieDePagina .sitios .imagen__redesSoc {
   width: 2.5rem;
