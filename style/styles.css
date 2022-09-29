@@ -1,3 +1,11 @@
+.main2 .card .historia__subitems, .main2 .card .historia__items {
+  background-color: rgb(148, 0, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
 * {
   font-family: "Merriweather", serif;
 }
@@ -207,11 +215,11 @@ body {
   margin-top: 1rem;
 }
 .main2 .card .historia__items {
-  background-color: rgb(148, 0, 0);
-  color: white;
-  border-radius: 5px;
   text-align: center;
-  padding: 0.5rem;
+}
+.main2 .card .historia__items:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
 }
 .main2 .card .texto {
   margin: 1rem;
@@ -221,11 +229,10 @@ body {
   text-align: center;
 }
 .main2 .card .historia__subitems {
-  background-color: rgb(148, 0, 0);
-  color: white;
   border: solid 1px black;
-  border-radius: 5px;
-  padding: 0.5rem;
+}
+.main2 .card .historia__subitems:hover {
+  background-color: rgb(107, 0, 0);
 }
 .main2 .card .imagen__ilustrativa {
   border-radius: 5px;

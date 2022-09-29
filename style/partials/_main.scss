@@ -176,11 +176,13 @@
         margin-top: 1rem;
 
         .historia__items {
-            background-color: rgb(148, 0, 0);
-            color: white;
-            border-radius: 05px;
+           @extend %ItemsInstitucional;
             text-align: center;
-            padding: 0.5rem;
+            
+            &:hover {
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
         }
 
         .texto {
@@ -193,11 +195,11 @@
         }
 
         .historia__subitems {
-            background-color: rgb(148, 0, 0);
-            color: white;
+            @extend %ItemsInstitucional;
             border: solid 1px black;
-            border-radius: 05px;
-            padding: 0.5rem;
+            &:hover {
+                background-color: rgb(107, 0, 0);
+            }
         }
 
         .imagen__ilustrativa {
