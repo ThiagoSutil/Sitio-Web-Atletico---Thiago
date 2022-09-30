@@ -308,7 +308,7 @@ fieldset {
     color: black;
 
     .formulario {
-       @include form ($color: black, $borderRadius: 05px)
+       @include form ($color: rgb(0, 0, 0), $borderRadius: 05px)
     }
 }
 
