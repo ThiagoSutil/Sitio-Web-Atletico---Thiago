@@ -196,7 +196,7 @@
 
         .historia__subitems {
             @extend %ItemsInstitucional;
-            border: solid 1px black;
+            border: solid 2px black;
             &:hover {
                 background-color: rgb(107, 0, 0);
             }
@@ -308,12 +308,7 @@ fieldset {
     color: black;
 
     .formulario {
-        background-image: url(../images/contacto.jpg);
-        border-radius: 05px;
-        background-position: center;
-        background-size: cover;
-        padding: 1rem;
-        color: black;
+       @include form ($color: black, $borderRadius: 05px)
     }
 }
 

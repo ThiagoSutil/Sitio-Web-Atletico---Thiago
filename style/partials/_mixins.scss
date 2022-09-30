@@ -1,0 +1,8 @@
+@mixin form ($color, $borderRadius) {
+    background-image: url(../images/contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    color: $color;
+    border-radius: $borderRadius;
+}

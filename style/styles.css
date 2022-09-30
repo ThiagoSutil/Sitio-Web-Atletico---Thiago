@@ -229,7 +229,7 @@ body {
   text-align: center;
 }
 .main2 .card .historia__subitems {
-  border: solid 1px black;
+  border: solid 2px black;
 }
 .main2 .card .historia__subitems:hover {
   background-color: rgb(107, 0, 0);
@@ -332,11 +332,11 @@ fieldset {
 }
 fieldset .formulario {
   background-image: url(../images/contacto.jpg);
-  border-radius: 5px;
   background-position: center;
   background-size: cover;
   padding: 1rem;
   color: black;
+  border-radius: 5px;
 }
 
 .contenidoNoticia {
