@@ -30,6 +30,10 @@ body {
   align-items: center;
   margin: 0.5rem;
 }
+.cabecera .navbarimage {
+  width: 5rem;
+  height: 5rem;
+}
 .cabecera ul {
   display: flex;
   flex-direction: row;

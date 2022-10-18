@@ -21,6 +21,11 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 0.5rem;
+
+    .navbarimage {
+        width: 5rem;
+        height: 5rem;
+    }
    
     ul {
     display: flex;
