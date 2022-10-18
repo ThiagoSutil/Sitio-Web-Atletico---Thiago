@@ -522,6 +522,13 @@ fieldset .formulario {
     margin: 1rem;
     border-radius: 5px;
   }
+  /*contacto*/
+  .formulario__texto {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
 }
 /*Tablet*/
 @media screen and (min-width: 576px) and (max-width: 991px) {
